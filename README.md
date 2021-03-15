@@ -7,23 +7,42 @@ See https://apple-watch.online Inspiration from https://github.com/herusdianto/l
 
 
 Installation
+
 Clone repo
+
+https://github.com/kmlprod81/vue-laravel-crud-master
+
 
 Change to directory
 
+
 cd vue-laravel-crud
+
 Install dependencies
+
 composer install
+
 Copy .env file
+
 cp .env.example .env
+
 Modify DB_* value in .env with your database config.
+
 
 Generate application key:
 
+
 php artisan key:generate
+
 Migrate
+
 php artisan migrate
+
 Install Node modules
+
 npm install
+
 Build
+
 npm run prod
+
